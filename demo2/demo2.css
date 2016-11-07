@@ -1,0 +1,64 @@
+a{
+      color: black;
+    }
+
+    img{
+      border-radius: 20px;
+    }
+
+    h2{
+      font-size: 40px;
+    }
+
+    h1{
+      font-size: 50px;
+    }
+
+    h4{
+      color: white;
+    }
+    h3{
+      color: black;
+    }
+    body{
+      background-color: gray;
+      animation: change 4s infinite;
+      color: white;
+      font-family: sans-serif italic;
+    }
+
+    .well{
+      margin-top: 50px;
+      background-color: gray;
+      border-top-color: red;
+      border-bottom-color: red;
+      border-radius: 10px;    
+    }
+
+    a:hover{
+      color: white;
+      text-decoration: none;
+    }
+
+    @keyframes change{
+        0%{
+          background-color: #484848 ;        
+        }
+        25%{
+          background-color: #383838;
+        }
+        50%{
+          background-color: #404040;
+        }
+        75%{
+          background-color: #484848;
+        }
+        100%{
+          background-color: #505050;
+        }
+    }
+    .bg{
+      background-color: black;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }

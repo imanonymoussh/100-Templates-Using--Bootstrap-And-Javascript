@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Demo2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="demo2.css">  
+  
+<body>
+	
+<!-- navigation-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li classs="dropdown">
+        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span> </a>
+        	<ul class="dropdown-menu">
+        		<li><a href="">page-1</a></li>
+        		<li><a href="">page-2</a></li>
+        		<li><a href="">page-3</a></li>
+        	</ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Post</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- container section -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+
+		<!--heading -->
+			<h1 class="page-header">
+				Noobs blog
+			</h1>
+
+		<!-- first post -->
+      <h2>
+        <a href="#">The new macbook pro has a Touch bar.</a>
+      </h2>
+      <p class="lead">
+        by <a href="#">Anonymous</a>
+      </p>
+      <p class="lead"><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2016 at 11:00pm</p>
+      <hr>
+      <img class="img-responsive" src="macbookpro.jpg" alt="iphone">
+      <hr>
+      <p>First released in 2006 and last redesigned in 2008, the non-Retina MacBook Pro was at one time known as the “MacBook,” and is currently available only in a 13″ version. Thicker and 1/3 heavier than the 13.3″ MacBook Air, the MacBook Pro includes a substantially faster Intel Core i5 processor, offset by a much slower 500GB hard drive and a lower-resolution 1280×800 screen. It is now the only Apple laptop with a DVD/CD drive, integrated FireWire 800 port, and Gigabit Ethernet port, all features dropped from the MacBook Air and MacBook Pro with Retina Display. However, while it has two USB 3 ports and a Thunderbolt 1 port, it lacks HDMI output, 802.11ac wireless, and Force Touch, delivering only 7 hours of battery life.</p>
+      <a class="btn btn-primary">Read more <span class="glyphicon glyphicon-chevron-right"></span></a>
+      <hr>
+
+    <!-- second post -->
+      <h2>
+        <a href="#">The new Iphone 7 is incredible.</a>
+      </h2>
+      <p class="lead">
+        by <a href="#">Anonymous</a>
+      </p>
+      <p class="lead"><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2016 at 11:00pm</p>
+      <hr>
+      <img class="img-responsive" src="iphones.jpg" alt="iphone">
+      <hr>
+      <p>The Apple iPhone 7 runs iOS 10 and is powered by a 1960mAh non removable battery. It measures 138.30 x 67.10 x 7.10 (height x width x thickness) and weighs 138.00 grams
+      The Apple iPhone 7 is a single SIM (GSM) smartphone that accepts a Nano-SIM. Connectivity options include Wi-Fi, GPS, Bluetooth, NFC, 3G and 4G (with support for Band 40 used by some LTE networks in India). Sensors on the phone include Compass Magnetometer, Proximity sensor, Accelerometer, Ambient light sensor, Gyroscope and Barometer.</p>
+      <a class="btn btn-primary">Read more <span class="glyphicon glyphicon-chevron-right"></span></a>
+      <hr>
+
+    <!-- third post -->
+      <h2>
+        <a href="#">Apple Iphone 7 and the new macbook pro 2016</a>
+      </h2>
+      <p class="lead">
+        by <a href="#">Anonymous</a>
+      </p>
+      <p class="lead"><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2016 at 11:00pm</p>
+      <hr>
+      <img class="img-responsive" src="iphone7.jpg" alt="iphone">
+      <hr>
+      <p>The Apple iPhone 7 is powered by quad-core Apple A10 Fusion processor and it comes with 2GB of RAM. The phone packs 32GB of internal storage cannot be expanded. As far as the cameras are concerned, the Apple iPhone 7 packs a 12-megapixel primary camera on the rear and a 7-megapixel front shooter for selfies.</p>
+      <a class="btn btn-primary">Read more <span class="glyphicon glyphicon-chevron-right"></span></a>
+      <hr>
+    </div>
+
+    <!-- all the side stuff and side bars-->
+    <div class="col-sm-4">
+    <!-- search input form -->
+        <div class="well">
+          <h3>Search</h3>
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+
+        <div class="well">
+          <h3>Categories</h3><br>
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="list-unstyled">
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="list-unstyled">
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+                <li><a href="">Category Name</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+	</div>
+</div>
+
+<footer>
+<div class="container-fluid bg">
+    <h4 class="text-center">
+    Made by <a  style="color: #428bca" href="#">Anonymoussh</a>
+    </h4>
+</div>
+</footer>
+
+
+</body>
+</html>

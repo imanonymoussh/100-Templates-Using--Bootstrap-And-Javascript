@@ -1,0 +1,55 @@
+.bg-1{
+      color: #ffffff;
+      background-color: #ffa100;
+      background-image: url("eagle.jpg");
+    }
+    .bg-2{
+      color: #ffffff;
+      background-color: black;
+    }
+    .bg-3{
+      color: black;
+      background-color: #efa743;
+    }
+    .container-fluid{
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .navbar{
+      margin-bottom: 0;
+      padding: 15px 0 15px 0;
+      border: 0;
+       -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -o-border-radius: 0;  
+      border-radius: 0; 
+      
+    }
+    .navbar-default .navbar-header > a {
+      font-size: 25px; 
+    }
+     .navbar-default .navbar-header > a:hover {
+      color: #ffa100;
+    }
+    .navbar-default {
+      color: black;
+      background-color: black;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 25px;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+    color: #ffa100;
+    }
+    .bg-4{
+      background-color: #2f2f2f;
+      color: #ffffff;
+    }
+    p{
+      font-size: 20px;
+    }
+    img{
+    	border-radius: 50px;
+
+    }
+    
